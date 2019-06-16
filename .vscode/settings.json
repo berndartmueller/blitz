@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.detectIndentation": false,
+  "autoimport.spaceBetweenBraces": true,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.stylelintIntegration": true
+}

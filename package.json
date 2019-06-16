@@ -1,0 +1,44 @@
+{
+  "name": "blitz",
+  "version": "1.0.0",
+  "description": "### Lightning-fast micro javascript framework",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fix": "tslint --fix -c tslint.json 'src/**/*.ts'",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node bin/run.js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "@types/node": "7.0.8",
+    "@types/winston": "^2.4.4",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "pre-commit": "^1.2.2",
+    "source-map-support": "^0.5.9",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb-base": "^0.2.0",
+    "tslint-eslint-rules": "^4.1.1"
+  },
+  "dependencies": {
+    "typescript": "^2.6.2",
+    "winston": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berndartmueller/blitz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berndartmueller/blitz/issues"
+  },
+  "homepage": "https://github.com/berndartmueller/blitz#readme"
+}

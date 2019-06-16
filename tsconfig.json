@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "outDir": "dist",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/",
+    "rootDirs": ["."],
+    "types": ["node"],
+    "target": "es6",
+    "lib": ["es6"],
+    "typeRoots": [
+      // add path to @types
+      "node_modules/@types"
+    ]
+  },
+  "exclude": ["node_modules"],
+  "files": ["src/index.ts"],
+  "compileOnSave": true,
+  "buildOnSave": false,
+  "atom": { "rewriteTsconfig": false }
+}
